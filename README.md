@@ -1,1 +1,3 @@
-# Inflearn-road-to-business-automation
+# [인프런 강의]
+
+## 업무 자동화 마스터: Python으로 이메일 관리와 크롤링 프로젝트 완성하기
