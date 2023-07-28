@@ -1,8 +1,11 @@
-name: test
-on:[push] # 코드가 깃허브로 push 될 때마다
+name: Github Action Test
+
+on: [push] # 코드가 push 될 때마다
+
 jobs:
   print-message:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Print message
-      run: echo "수집자동화"
+      - name: Print the message
+        run: echo "수집 자동화"
