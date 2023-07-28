@@ -1,6 +1,8 @@
 name: News Bot
 
-on: [push] # 테스트를 하기위해서
+on:
+  schedule:
+    - cron: "50 14 * * *" # 한국시간 11시 50분
 
 jobs:
   run-news-bot:
