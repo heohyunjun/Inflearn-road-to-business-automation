@@ -1,0 +1,10 @@
+name: test
+on: [push]
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print the message
+        run: echo "수집 자동화"
