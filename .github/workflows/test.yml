@@ -1,6 +1,6 @@
 name: News Bot
 
-on:[push]
+on: [push]
 
 jobs:
   run-news-bot:
