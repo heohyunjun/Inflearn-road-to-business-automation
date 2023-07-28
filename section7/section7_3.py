@@ -7,7 +7,7 @@ import pandas as pd
 import os
 # 슬랙볼트 임포트하기
 from slack_bolt import App
-
+#
 
 def main():     
     urllib3.disable_warnings()
