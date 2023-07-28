@@ -8,9 +8,8 @@ import os
 # 슬랙볼트 임포트하기
 from slack_bolt import App
 
-if __name__ == __main__:
-        
 
+def main():     
     urllib3.disable_warnings()
 
     slack_token = os.environ.get("SLACK_TOKEN")
@@ -92,3 +91,5 @@ if __name__ == __main__:
     if not news_found:
         slack_response = app.client.chat_postMessage(channel=slack_channel,
                                             text = "뉴스가 없습니다")
+if __name__ == '__main__':
+    main()
