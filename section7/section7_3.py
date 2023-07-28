@@ -12,7 +12,7 @@ from slack_bolt import App
 def main():     
     urllib3.disable_warnings()
 
-    slack_token = os.environ.get("SLACK_TOKEN")
+    slack_token = os.environ.get("SLACK_TOEKN")
     slack_channel = os.environ.get("SLACK_CHANNEL")
 
     # 슬랙 앱 인스턴스 초기화
