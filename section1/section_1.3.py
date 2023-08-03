@@ -51,8 +51,8 @@ def send_message(service, user_id, message):
 
 def main():
     service = gmail_authenticate()
-    sender = "hi.juuny@gmail.com"  # 보내는 사람 
-    to = "hi.juuny@gmail.com"  # 받는 사람 
+    sender = "@gmail.com"  # 보내는 사람 
+    to = "@gmail.com"  # 받는 사람 
     subject = "Hello World!"  # 이메일 제목 
     message_text = "Hello, this is a test email."  # 이메일 본문
 
